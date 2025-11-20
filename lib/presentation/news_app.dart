@@ -17,6 +17,8 @@ class NewsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'News App (Part 2)',
+      debugShowCheckedModeBanner: false,
+
       theme: ThemeData(
         primaryColor: const Color(0xFF192A56),
         appBarTheme: const AppBarTheme(backgroundColor: Color(0xFF192A56)),
