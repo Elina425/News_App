@@ -1,8 +1,3 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http; // Required import for network calls
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
 class ArticleModel {
   final String title;
   final String sourceName;
@@ -22,8 +17,7 @@ class ArticleModel {
     required this.category,
   });
 
-  // Factory constructor for simple JSON parsing (adapt for real API)
-  factory ArticleModel.fromJson(Map<String, dynamic> json) {
+  factory ArticleModel.fromJson(Map<String, dynamic> json, {required String defaultCategory}) {
     return ArticleModel(
       title: json['title'] ?? 'No Title',
       sourceName: json['sourceName'] ?? 'Unknown Source',
