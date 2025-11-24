@@ -4,8 +4,10 @@ data class Article(
     val title: String,
     val sourceName: String,
     val author: String,
-    val urlToImage: String?
-    // Part 2 will add description and content
+    val urlToImage: String?,
+    val description: String,
+    val content: String,
+    val category: String
 )
 
 // Data State for the Repository response (Part of Domain/ViewModel)
