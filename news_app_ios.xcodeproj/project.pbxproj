@@ -35,16 +35,6 @@
 			path = news_app_ios;
 			sourceTree = "<group>";
 		};
-		8E80261B2ED624DD005ABB31 /* news_app_iosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = news_app_iosTests;
-			sourceTree = "<group>";
-		};
-		8E8026252ED624DD005ABB31 /* news_app_iosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = news_app_iosUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				8E80260B2ED624DB005ABB31 /* news_app_ios */,
-				8E80261B2ED624DD005ABB31 /* news_app_iosTests */,
-				8E8026252ED624DD005ABB31 /* news_app_iosUITests */,
 				8E80260A2ED624DB005ABB31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				8E80261A2ED624DD005ABB31 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8E80261B2ED624DD005ABB31 /* news_app_iosTests */,
-			);
 			name = news_app_iosTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				8E8026242ED624DD005ABB31 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8E8026252ED624DD005ABB31 /* news_app_iosUITests */,
 			);
 			name = news_app_iosUITests;
 			packageProductDependencies = (
